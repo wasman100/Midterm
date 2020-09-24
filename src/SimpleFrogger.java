@@ -22,7 +22,7 @@ public class SimpleFrogger extends GraphicsProgram {
 	public static final int APPLICATION_HEIGHT = NROWS * SQUARE_SIZE;
 	
 	public void run() {
-		frog = new GImage("C:\\Users\\wesmo\\eclipse-workspace\\Midterm\\images.jpg");
+		frog = new GImage("images.jpg");
 		frogx = (NCOLUMNS / 2 + 0.5) * SQUARE_SIZE;
 		frogy = (NROWS - 0.5) * SQUARE_SIZE;
 		add(frog, frogx - frog.getWidth() / 2, frogy - frog.getHeight() / 2);
